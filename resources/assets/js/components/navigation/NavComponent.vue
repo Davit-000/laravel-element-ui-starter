@@ -29,11 +29,7 @@
                 <span slot="title">item four</span>
                 <el-menu-item index="1-4-1">item one</el-menu-item>
             </el-submenu>
-        </el-submenu>
-        <el-menu-item index="2">
-            <i class="el-icon-menu"></i>
-            <span slot="title">Navigator Two</span>
-        </el-menu-item>
+        </el-submenu>        
         <el-menu-item index="3" disabled>
             <i class="el-icon-document"></i>
             <span slot="title">Navigator Three</span>

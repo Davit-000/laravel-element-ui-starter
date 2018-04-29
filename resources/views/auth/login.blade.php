@@ -1,10 +1,14 @@
 @extends('layouts.app')
 
+@section('header')
+    <header-component :auth="{{ (Auth::check())?Auth::user():0 }}" :token="'{{ csrf_token() }}'"></header-component>
+@endsection
+
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-6">
-            <div class="el-card box-card is-always-shadow">
+            <div class="el-card box-card is-always-shadow mt-3">
                 <h2 class="card-title mt-3">{{ __('Login') }}</h2>
 
                 <div class="el-card__body">

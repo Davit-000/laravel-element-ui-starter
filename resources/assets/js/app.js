@@ -19,7 +19,6 @@ Vue.use(ElementUI);
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('main-component', require('./components/MainComponent.vue'));
 Vue.component('header-component', require('./components/navigation/HeaderComponent.vue'));
 Vue.component('nav-component', require('./components/navigation/NavComponent.vue'));
 // tests

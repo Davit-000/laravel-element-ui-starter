@@ -5,7 +5,7 @@
 @endsection
 
 @section('header')
-<header-component></header-component>
+    <header-component :auth="{{ (Auth::check())?Auth::user():0 }}" :token="'{{ csrf_token() }}'"></header-component>
 @endsection
 
 @section('content')
