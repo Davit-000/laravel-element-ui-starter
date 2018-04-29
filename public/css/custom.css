@@ -1,0 +1,11 @@
+.ml-5p {
+    margin-left: 5px !important;
+}
+.mr-5p {
+    margin-right: 5px !important;
+}
+/* Cards */
+.el-card .card-title {
+    border-left: 2px solid #409EFF;
+    padding: 10px 15px;
+}
